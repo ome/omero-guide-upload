@@ -6,9 +6,11 @@ Description
 
 This chapter will show how to import data for another user, using Command Line Interface (CLI).
 
-The user importing the data needs to have some admin (or restricted-admin) privileges. More information about restricted privileges can be found at \ https://docs.openmicroscopy.org/latest/omero/sysadmins/restricted-admins.html
+The import can be done by any user as long as they import the data for themselves.
 
-The import for another user will be done only as demo since the user is required to have specific privileges. We will use a user with login name ``importer1``, who could be in real life e.g. a facility manager.
+In case of the import for others, the user importing the data needs to have some admin (or restricted-admin) privileges. More information about restricted privileges can be found at \ https://docs.openmicroscopy.org/latest/omero/sysadmins/restricted-admins.html
+
+In the example workflow below, a user with restricted administrator privileges is used with login name ``importer1``. This could be in real life e.g. a facility manager.
 
 We will show:
 
