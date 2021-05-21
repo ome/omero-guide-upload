@@ -8,7 +8,7 @@ This chapter will show how to import data for another user, using Command Line I
 
 The import can be done by any user as long as they import the data for themselves.
 
-In case of the import for others, the user importing the data needs to have some admin (or restricted-admin) privileges. More information about restricted privileges can be found at \ https://docs.openmicroscopy.org/latest/omero/sysadmins/restricted-admins.html
+In case of the import for others, the user importing the data needs to have some admin (or restricted-admin) privileges. More information about restricted privileges can be found at `restricted-admins <https://docs.openmicroscopy.org/latest/omero/sysadmins/restricted-admins.html>`__.
 
 In the example workflow below, a user with restricted administrator privileges is used with login name ``importer1``. This could be in real life e.g. a facility manager.
 
@@ -56,8 +56,7 @@ Setup
 
 **CLI Importer installation**
 
-Client libraries from the OMERO.server have to be installed on the client to import images using CLI. The installation instructions can be
-found at https://docs.openmicroscopy.org/latest/omero/users/cli/installation.html.
+Client libraries from the OMERO.server have to be installed on the client to import images using CLI.Please read the `installation instructions <https://docs.openmicroscopy.org/latest/omero/users/cli/installation.html>`__.
 
 Note: When importing for another user using the CLI, the ``importer1`` does not have to be a member of the target group.
 
@@ -135,7 +134,7 @@ A user performing an in-place import MUST have:
 
 -  read access to the location of the data
 
--  write access to the ManagedRepository or one of its subdirectories. More information about the ManagedRepository can be found at \ https://docs.openmicroscopy.org/latest/omero/developers/Server/FS.html
+-  write access to the ManagedRepository or one of its subdirectories. Please check the `ManagedRepository <https://docs.openmicroscopy.org/latest/omero/developers/Server/FS.html>`__ documentation.
 
 
    .. image:: images/importcli2.png
