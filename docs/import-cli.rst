@@ -20,7 +20,7 @@ We will show:
 
 -  How to deal with imports of large amounts of data in CLI, using the --bulk option and helper csv and yml files which define what is to be imported and how.
 
-.. _Resources:
+.. _Resources-import-cli:
 
 Resources
 ---------
@@ -279,7 +279,7 @@ Nevertheless, there are cases which do not need visual checks and use a single r
 Resources
 ---------
 
-Additionally to the :ref:`Resources mentioned in the import-cli section<Resources>` and in the :ref:`Setup<Setup>` you will also need the rendering and metadata plugins as mentioned in :doc:`render` and :doc:`metadata`, and possibly the following files:
+Additionally to the :ref:`Resources mentioned in the import-cli section<Resources-import-cli>` and in the :ref:`Setup<Setup>` you will also need the rendering and metadata plugins as mentioned in :doc:`render` and :doc:`metadata`, and possibly the following files:
 
    - https://github.com/ome/training-scripts/blob/master/maintenance/preparation/renderingdef.yml
    - :download:`simple-annotation.csv <../scripts/simple-annotation.csv>`
